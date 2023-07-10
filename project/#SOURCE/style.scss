@@ -1,0 +1,593 @@
+@import '_nullstyle.scss';
+
+
+/*********************ШАПКА САЙТА*******************/
+.header {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: -60px;
+	left: 0;
+	background: #fff;
+	z-index: 999;
+	.header-wrape {
+		width: 80%;
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 auto;
+		.header-logo {
+			color: #00228F;
+			font-size: 48px;
+			font-family: Arial Rounded MT Bold;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+		}
+		.main-menu {
+			ul {
+				display: flex;
+				li {
+					color: #00228F;
+					font-size: 16px;
+					font-family: Arial Rounded MT Bold;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+					margin-right: 70px;
+				}
+				.active__main-menu {
+					border-bottom: 3px solid #00228F;
+				}
+			}
+		}
+	}
+}
+/********************ШАПКА САЙТА*******************/
+
+
+
+/***********************ВСТУПИТЕЛЬНЫЙ БЛОК***********************/
+.introduction {
+	width: 100%;
+	height: 100%;
+	background: url('/assets/media/background.png') 0 0 / 100% 100% no-repeat;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	.introduction-background {
+		width: 100%;
+		height: 100%;
+		background: url('/assets/media/ovulio.png') 0 0 / 100% 100% no-repeat;;
+		position: absolute;
+		top: 0;
+		left: 0;
+		filter: opacity(30%);
+		z-index: -1;
+		animation-name: ovulio;
+		animation-duration: 2.5s;
+		animation-timing-function: ease-in-out;
+		animation-delay: 2s;
+	}
+	.introduction-group {
+		width: 100%;
+		height: 100%;
+		z-index: 3;
+		.first-screen {
+			.branch-yelow {
+				position: absolute;
+				top: 6%;
+				left: 15%;
+				svg {
+					width: 75%;
+					color: #FAFF00;
+					animation-duration: 2.5s;
+					animation-name: branchbluesize;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+					
+				}
+				animation-duration: 2.5s;
+				animation-name: branchblue;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+			}
+			.branch-white__first {
+				position: absolute;
+				top: 30%;
+				left: 80%;
+				animation-name: branchpink;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 75%;
+					color: #FFF;
+					animation-name: branchpinksize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			
+			.branch-white__second {
+				position: absolute;
+				top: 60%;
+				left: 40%;
+				animation-name: branchposition;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 60%;
+					color: #fff;
+					animation-name: branchsize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			.points {
+				position: absolute;
+				top: 70%;
+				left: 85%;
+				width: 5%;
+				animation-name: points;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				img {
+					width: 100%;
+				}
+			}
+			.introduction-text {
+				position: absolute;
+				top: 95%;
+				left: 5%;
+				color: #FAFF00;
+				font-size: 24px;
+				font-family: Arial Rounded MT Bold;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				animation-name: introsmalltext;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+			}
+			.cloud {
+				position: absolute;
+				bottom: -18%;
+				right: -19%;
+				animation-name: cloudposition;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 60%;
+					animation-name: cloudsize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			.introduction-text__second {
+				position: absolute;
+				top: 30%;
+				left: 15%;
+				color: #FFF;
+				text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+				font-size: 120px;
+				font-family: Arial Rounded MT Bold;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				overflow: hidden;
+				h2 {
+					position: relative;
+					left: -100%;
+					animation-name: introtext;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+		}
+		.technology {
+			.branch-yelow {
+				position: absolute;
+				top: 6%;
+				left: 15%;
+				svg {
+					width: 75%;
+					color: #FAFF00;
+					animation-duration: 2.5s;
+					animation-name: branchbluesize;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+					
+				}
+				animation-duration: 2.5s;
+				animation-name: branchblue;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+			}
+			.branch-white__first {
+				position: absolute;
+				top: 30%;
+				left: 80%;
+				animation-name: branchpink;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 75%;
+					color: #FFF;
+					animation-name: branchpinksize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			
+			.branch-white__second {
+				position: absolute;
+				top: 60%;
+				left: 40%;
+				animation-name: branchposition;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 60%;
+					color: #fff;
+					animation-name: branchsize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			.points {
+				position: absolute;
+				top: 70%;
+				left: 85%;
+				width: 5%;
+				animation-name: points;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				img {
+					width: 100%;
+				}
+			}
+			.introduction-text {
+				position: absolute;
+				top: 95%;
+				left: 5%;
+				color: #FAFF00;
+				font-size: 24px;
+				font-family: Arial Rounded MT Bold;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				animation-name: introsmalltext;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+			}
+			.cloud {
+				position: absolute;
+				bottom: -18%;
+				right: -19%;
+				animation-name: cloudposition;
+				animation-duration: 2.5s;
+				animation-timing-function: ease-in-out;
+				animation-delay: 2s;
+				svg {
+					width: 60%;
+					animation-name: cloudsize;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+			.introduction-text__second {
+				position: absolute;
+				top: 30%;
+				left: 15%;
+				color: #FFF;
+				text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+				font-size: 120px;
+				font-family: Arial Rounded MT Bold;
+				font-style: normal;
+				font-weight: 400;
+				line-height: normal;
+				overflow: hidden;
+				h2 {
+					position: relative;
+					left: -100%;
+					animation-name: introtext;
+					animation-duration: 2.5s;
+					animation-timing-function: ease-in-out;
+					animation-delay: 2s;
+				}
+			}
+		}
+	}
+}
+/***********************ВСТУПИТЕЛЬНЫЙ БЛОК***********************/
+
+/***********************АНИМАЦИИ**********************/
+
+.introduction .introduction-group .first-screen .branch-yelow.branch-blue {
+	top: 0;
+	left: 10%;
+	svg {
+		width: 100%;
+		color: #00228F;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+}
+.introduction .introduction-group .section.technology.fp-section.fp-table.fp-is-overflow.active.fp-completely .fp-overflow .branch-yelow.branch-blue {
+	top: 0;
+	left: 10%;
+	svg {
+		width: 100%;
+		color: #00228F;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+}
+
+.introduction .introduction-group .first-screen .branch-white__first.branch-pink {
+	top: 10%;
+	left: 75%;
+	svg {
+		width: 100%;
+		color: #f48be0;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+}
+
+.introduction .introduction-group .first-screen .branch-white__second.branch-size {
+	top: 50%;
+	left: 35%;
+	svg {
+		width: 100%;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+}
+
+.introduction .introduction-group .first-screen .cloud.cloud-size {
+	bottom: -1%;
+	right: -3%;
+	svg {
+		width: 100%;
+	}
+}
+
+.introduction .introduction-group .introduction-text__second.intro-text h2 {
+	left: 0%;
+}
+
+.introduction .introduction-group .first-screen .introduction-text.intro-text__small {
+	color: #00228F;
+	font-size: 64px;
+	top: 90%;
+}
+
+.introduction .introduction-background.intro-backgound__size {
+	width: 80%;
+	height: 80%;
+	filter: opacity(5%);
+	top: 10%;
+	left: 10%;
+}
+
+.introduction .introduction-group .first-screen .points.points-size {
+	top: 65%;
+	left: 78%;
+	width: 7%;
+}
+
+
+@keyframes branchblue {
+	from {
+		top: 6%;
+		left: 15%;
+	}
+	to {
+		top: 0%;
+		left: 10%;
+	}
+	10% {
+		top: 7%;
+		left: 16%;
+	}
+	75% {
+		top: -1%;
+		left: 9%;
+	}
+}
+@keyframes branchbluesize {
+	from {
+		width: 75%;
+		color: #FAFF00;
+	}
+	to {
+		width: 100%;
+		color: #00228F;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+	10% {
+		width: 74%;
+	}
+}
+
+@keyframes branchpink {
+	from {
+		top: 30%;
+		left: 80%;
+	}
+	to {
+		top: 10%;
+		left: 75%;
+	}
+	10% {
+		top: 31%;
+		left: 81%;
+	}
+	75% {
+		top: 9%;
+		left: 74%;
+	}
+}
+@keyframes branchpinksize {
+	from {
+		width: 75%;
+		color: #fff;
+	}
+	to {
+		width: 100%;
+		color: #f48be0;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+	10% {
+		width: 74%;
+	}
+}
+
+@keyframes branchposition {
+	from {
+		top: 60%;
+		left: 40%;
+	}
+	to {
+		top: 50%;
+		left: 35%;
+	}
+	10% {
+		top: 61%;
+		left: 41%;
+	}
+	75% {
+		top: 49%;
+		left: 34%;
+	}
+}
+@keyframes branchsize {
+	from {
+		width: 60%;
+	}
+	to {
+		width: 100%;
+		filter: drop-shadow(2px 2px 3px #424242);
+	}
+	10% {
+		width: 59%;
+	}
+}
+
+@keyframes cloudposition {
+	from {
+		bottom: -18%;
+		right: -19%;
+	}
+	to {
+		bottom: -1%;
+		right: -3%;
+	}
+	10% {
+		bottom: -19%;
+		right: -20%;
+	}
+	75% {
+		bottom: 0;
+		right: -2%;
+	}
+}
+@keyframes cloudsize {
+	from {
+		width: 60%;
+	}
+	to {
+		width: 100%;
+	}
+	10% {
+		width: 59%;
+	}
+	75% {
+		width: 101%;
+	}
+}
+
+@keyframes introsmalltext {
+	from {
+		font-size: 24px;
+		color: #FAFF00;
+		top: 95%;
+	}
+	to {
+		font-size: 64px;
+		color: #00228F;
+		top: 90%;
+	}
+	10% {
+		font-size: 20px;
+		top: 96%;
+	}
+	75% {
+		font-size: 70px;
+		top: 89%;
+	}
+}
+
+@keyframes introtext {
+	from {
+		left: -100%;
+	}
+	to {
+		left: 0%;
+	}
+}
+
+@keyframes ovulio {
+	from {
+		width: 100%;
+		height: 100%;
+		filter: opacity(30%);
+		top: 0;
+		left: 0;
+	}
+	to {
+		width: 80%;
+		height: 80%;
+		filter: opacity(5%);
+		top: 10%;
+		left: 10%;
+	}
+}
+
+@keyframes points {
+	from {
+		top: 70%;
+		left: 85%;
+		width: 5%;
+	}
+	to {
+		top: 65%;
+		left: 78%;
+		width: 7%;
+	}
+}
+
+/***********************АНИМАЦИИ**********************/
+
+/****************************FULLPAGE****************************/
+.fp-overflow {
+	height: 100%;
+}
+.fp-watermark {
+	display: none;
+}
+/****************************FULLPAGE****************************/
