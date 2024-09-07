@@ -1,0 +1,112 @@
+
+@media (max-width: 500px) {
+	.introduction .introduction-group.mobile {
+		overflow: initial;
+	}
+	.introduction .introduction-group .technology__first-screen {
+		width: 100%;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		top: 0;
+		overflow: visible;
+		align-items: center;
+		margin-top: 10vh;
+	}
+	.introduction .introduction-group .technology__first-screen .technology-title {
+		color: #FAFF00;
+		font-family: Arial Rounded MT Bold;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-top: 0;
+		position: relative;
+		width: 100%;
+		height: fit-content;
+		display: flex;
+		top: 0;
+	}
+	.introduction .introduction-group .technology__second-screen {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 1;
+		overflow: visible;
+		margin-top: 0;
+		display: flex;
+		justify-content: center;
+		margin-top: 5%;
+		top: 0;
+	}
+	.introduction .introduction-group .technology__second-screen .gallery {
+		display: flex;
+		justify-content: center;
+		width: 90%;
+		height: 100%;
+		position: relative;
+		z-index: 3;
+		flex-direction: column;
+		margin-left: 0;
+	}
+	.introduction .introduction-group .instruction {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		z-index: 0;
+		overflow: visible;
+		opacity: 1;
+		margin-top: 5%;
+		display: flex;
+	}
+	.introduction .introduction-group .instruction .instruction-wrap {
+		display: flex;
+		height: 100%;
+		flex-direction: column;
+	}
+	.introduction .introduction-group .kit {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		z-index: 0;
+		overflow: visible;
+		display: flex;
+	}
+	.introduction .introduction-group .kit .kit-wrap {
+		display: flex;
+		height: 100vh;
+		flex-direction: column;
+		margin-top: 35px;
+	}
+	.introduction .introduction-group .team {
+		width: 100%;
+		height: 100vh;
+		position: relative;
+		z-index: 0;
+		overflow: visible;
+		margin-top: 3vh;
+		margin-bottom: 5vh;
+	}
+	.introduction .introduction-group .team .team-wrap {
+		height: 100vh;
+	}
+	.introduction .introduction-group .cloud.cloud-size {
+		bottom: -30%;
+		animation: cloudIphone 2.5s ease-in-out;
+	}
+	.branch.tech-first-mobile {
+			top: 5%;
+	}
+
+	@keyframes cloudIphone {
+		from {
+			bottom: -35%;
+		}
+		to {
+			bottom: -30%;
+		}
+	}
+
+}
+
